@@ -25,7 +25,7 @@ npm start
 
 The demo runs on http://localhost:8000/.
 
-## Use webIDE
+## Run app with no setup
 Navigate to https://stackblitz.com/github/Oblosys/react-lifecycle-visualizer/tree/master/examples/parent-child-demo?file=src/samples/New.js
 
 ## Tutorial
@@ -40,23 +40,23 @@ It’s not mandatory to use States and since it increases complexity, a stateles
 * Basic understanding of React.
 * How does `setState` works? https://reactjs.org/docs/react-component.html#setstate
 
-Step 1:
+### Step 1:
 Go to https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 * The goal here is to build a basic understanding of component lifecycle. 
 Start with show less unchecked and click into the blocks to understand what each function does.
 * Once you are comfortable. check show less and build and understanding of the new functions available to you.
 
-Step 2:
+### Step 2:
 Navigate to `/examples/parent-child-demo/src/samples/New.js` and take a few minutes to understand the code itself.
 * The goal here is to understand all the states that are managed.
 * Understand the components that are involved and getting comfortable with the code.
 
-Step 3:
+### Step 3:
 Let's bring it all together! In this step please focus on the child in the app and increment y.
 * The goal here is to focus on the leaf node or child. 
 * Is it clear why incrementing y is triggering the functions like render in the app?
 
-Step 4:
+### Step 4:
 Let's get the party started! In this step, let's switch focus to the parent and increment x.
 * The goal here is to understand the side effects when updating the parent's state.
 * What function can we implement to prevent the child from updating when x is updated?
@@ -64,11 +64,11 @@ Let's get the party started! In this step, let's switch focus to the parent and 
 
 Before moving on, comment out the function that you override in step 4.
 
-Step 5:
+### Step 5:
 Living on the edge I see! You survived this far! In the child, increment x and y!
 * What is happening here? Can you explain the logs to your partner?
 
-Step 6:
+### Step 6:
 Damn, you are still here? Good job! Let's focus on `componentDidMount` and add the following code to the function
 ```
 setTimeout(() => {  
@@ -81,13 +81,13 @@ setTimeout(() => {
  * Now that you understand the possible side effects, what are the possible use cases to use `componentDidMount`? 
  Hint: Think about data and page load.
  
- Step 7:
+### Step 7:
 This one should be easy! `componentDidUpdate` is another useful method but then again every function is useful and just like a hammer, it can be useful and dangerous.
 * The goal here is to understand `componentDidUpdate`.
 * When is this method useful and how can you leverage the parameters?
 Hint: Step 6... I guess if you skipped step 6 this isn't helpful.
 
-Step 8:
+### Step 8:
 This one is a doozy. `setState` clearly has many side effects. 
 Given all the methods available to in a react component lifecycle, in the child component in `New.js` add all the methods and why or why not `setState` can be used.
 * The goal here is to understand `setState` and the possible usage of this method in the lifecycle methods.
