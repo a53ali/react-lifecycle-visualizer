@@ -80,6 +80,9 @@ setTimeout(() => {
  * The goal here is to understand `componentDidMount`.
   This snippet is quite common and can you spot the side effect of setting state in `componentDidMount`?
   Hint: what are we triggering multiple times?
+ * Now that you understand the possible side effects, what are the possible use cases to use `componentDidMount`? 
+ Hint: Think about data and page load.
+ 
  
  
  
