@@ -83,7 +83,13 @@ setTimeout(() => {
  * Now that you understand the possible side effects, what are the possible use cases to use `componentDidMount`? 
  Hint: Think about data and page load.
  
- 
- 
- 
+ Step 7:
+This one should be easy! `componentDidUpdate` is another useful method but then again every function is useful and just like a hammer, it can be useful and dangerous.
+* The goal here is to understand `componentDidUpdate`.
+* When is this method useful and how can you leverage the parameters?
+Hint: Step 6... I guess if you skipped step 6 this isn't helpful.
 
+Step 8:
+This one is a doozy. `setState` clearly has many side effects. 
+Given all the methods available to in a react component lifecycle, in the child component in `New.js` add all the methods and why or why not `setState` can be used.
+* The goal here is to understand `setState` and the possible usage of this method in the lifecycle methods.
