@@ -1,7 +1,5 @@
 # React Lifecycle Visualizer
 
-An npm package ([`react-lifecycle-visualizer`](https://www.npmjs.com/package/react-lifecycle-visualizer)) for tracing & visualizing lifecycle methods of arbitrary React components.
-
 ## Usage
 
 The panel shows the new React 16.3 lifecycle methods, unless the component defines at least one legacy method and no new methods. On a component that has both legacy and new methods, React ignores the legacy methods, so the panel shows the new methods.
@@ -93,3 +91,5 @@ Step 8:
 This one is a doozy. `setState` clearly has many side effects. 
 Given all the methods available to in a react component lifecycle, in the child component in `New.js` add all the methods and why or why not `setState` can be used.
 * The goal here is to understand `setState` and the possible usage of this method in the lifecycle methods.
+
+Highly recommend joining https://www.reddit.com/r/reactjs/ if you are passionate about react!
