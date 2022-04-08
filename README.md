@@ -70,4 +70,17 @@ Step 5:
 Living on the edge I see! You survived this far! In the child, increment x and y!
 * What is happening here? Can you explain the logs to your partner?
 
+Step 6:
+Damn, you are still here? Good job! Let's focus on `componentDidMount` and add the following code to the function
+```
+setTimeout(() => {  
+       this.incY();
+ }, 3000);
+ ```
+ * The goal here is to understand `componentDidMount`.
+  This snippet is quite common and can you spot the side effect of setting state in `componentDidMount`?
+  Hint: what are we triggering multiple times?
+ 
+ 
+ 
 
